@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.containerb {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.myFont {
+  font-family: Furore;
+}
+*::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+  font-family: monLight;
+  src: url(./);
+  src: url(./fontFamily/Montserrat-Light.ttf);
+}
+@font-face {
+  font-family: monMedium;
+  src: url(./fontFamily/Montserrat-Medium.ttf);
+}
+@font-face {
+  font-family: monBold;
+  src: url(./fontFamily/Montserrat-Bold.ttf);
+}
+.montserrat-light {
+  font-family: monLight;
+}
+.montserrat-medium {
+  font-family: monMedium;
+}
+.montserrat-bold {
+  font-family: monBold;
+}
+
+@font-face {
+  font-family: zingDemo;
+  src: url(./fontFamily/ZingRust.ttf);
+}
+
+* {
+  user-select: none;
+  scroll-behavior: smooth;
+}
+
+*:focus {
+  outline: none;
+}
+
+.ZingDemo {
+  font-weight: 100;
+  letter-spacing: 2px;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1px;
+  font-family: Furore;
+}
+
+.furore {
+  font-family: furore;
+}
+
+.hash {
+  background-image: linear-gradient(
+      45deg,
+      rgb(63, 63, 63),
+      rgba(0, 0, 0, 0.522)
+    ),
+    url(./assets/bg.png);
+}
+
+.gamesSwiper {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  padding: 10px 0 60px 0;
+}
+
+.gamesSwiper .swiper-wrapper {
+  display: flex;
+}
+
+.gamesSwiper .swiper-slide {
+  height: 450px;
+}
+
+.gamesSwiper .swiper-pagination {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  column-gap: 60px;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  bottom: 0;
+  border-radius: 10px;
+}
+
+.gamesSwiper .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.gamesSwiper .swiper-pagination-bullet-active {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #ffffff33;
+}
+
+.gamesSwiper .swiper-button-prev {
+  width: 50px;
+  border-radius: 50%;
+  left: 30%;
+  height: 50px;
+  position: absolute;
+  bottom: -5px;
+  filter: brightness(10);
+  background-size: cover;
+  transform: rotate(180deg);
+  cursor: pointer;
+  background-image: url(./assets/arrow.webp);
+  z-index: 30;
+}
+.gamesSwiper .swiper-button-next {
+  width: 50px;
+  border-radius: 50%;
+  right: 30%;
+  height: 50px;
+  position: absolute;
+  bottom: -5px;
+  filter: brightness(10);
+  cursor: pointer;
+  background-size: cover;
+  background-image: url(./assets/arrow.webp);
+  z-index: 30;
+}
+
+/* .demo {
+  background-color: #0e0f15;
+} */
+
+.menu {
+  background-size: cover;
+  background-image: url(./assets/menu.svg);
+}
