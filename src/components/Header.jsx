@@ -7,6 +7,11 @@ import { Link } from "react-router-dom";
 const Header = () => {
     const [menu, setMenu] = useState("-left-full");
 
+    const scrollFunction = (num) => {
+        document.body.scrollTop = num
+        document.documentElement.scrollTop = num;
+    }
+
     return (
         <header className="demo">
             <div
@@ -23,36 +28,36 @@ const Header = () => {
                         <nav className="w-1/4 max-sm:hidden">
                             <ul className="flex items-center justify-end gap-x-10">
                                 <li>
-                                    <a
+                                    <p
+                                        onClick={() => scrollFunction(0)}
                                         className="cursor-pointer text-white font-medium"
-                                        href="#home"
                                     >
                                         Home
-                                    </a>
+                                    </p>
                                 </li>
                                 <li>
-                                    <a
-                                        href="#about"
+                                    <p
+                                        onClick={() => scrollFunction(500)}
                                         className="cursor-pointer text-white font-medium"
                                     >
                                         About
-                                    </a>
+                                    </p>
                                 </li>
                                 <li>
-                                    <a
+                                    <p
                                         className="cursor-pointer text-white font-medium"
-                                        href="#projects"
+                                        onClick={() => scrollFunction(1200)}
                                     >
                                         Projects
-                                    </a>
+                                    </p>
                                 </li>
                                 <li>
-                                    <a
+                                    <p
                                         className="cursor-pointer text-white font-medium"
-                                        href="#contact"
+                                        onClick={() => scrollFunction(3300)}
                                     >
                                         Contact
-                                    </a>
+                                    </p>
                                 </li>
                             </ul>
                         </nav>

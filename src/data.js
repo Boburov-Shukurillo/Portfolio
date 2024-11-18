@@ -10,6 +10,7 @@ import restoranB from "./assets/icons/beauty_restoran.png";
 import xSweat from "./assets/icons/xsweat.png";
 import crypto from "./assets/icons/cryptoTRacker.png";
 import husan_art from "./assets/icons/husan_art.png";
+
 export const projects = [
   {
     id: 2,

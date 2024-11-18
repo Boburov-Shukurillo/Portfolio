@@ -25,65 +25,65 @@ const Home = () => {
     return (
         <div className="bg-darkenBlue">
             <div
-                className={`py-20 pt-60 bg-contain bg-center max-1700:bg-cover max-md:py-24 max-md:pt-32`}
+                className={`py-20 pt-60 bg-contain bg-center max-1700:bg-cover max-lg:py-24 max-md:py-24 max-md:pt-32`}
                 id="home"
                 data-aos="fade-in"
             >
-                <div className="containerb flex items-center justify-between max-sm:flex-col">
-                    <div className="w-full max-md:w-4/5 max-sm:text-center flex flex-col gap-y-7 max-sm:items-center max-sm:gap-y-3">
-                        <h1 className="text-6xl font-bold ZingDemo text-white max-lg:text-4xl max-md:text-3xl max-sm:text-2xl">
+                <div className="containerb flex items-center justify-between max-md:flex-col">
+                    <div className="w-full max-md:w-4/5 max-sm:text-center flex flex-col gap-y-7 max-md:items-center max-sm:gap-y-3">
+                        <h1 className="text-6xl font-bold ZingDemo text-white max-lg:text-3xl max-md:text-3xl max-md:text-center max-sm:text-2xl">
                             Front-End React
                             Developer 👋
                         </h1>
-                        <p className="text-xl text-whiteGray mb-5  montserrat-light   w-2/3 max-md:w-4/5 max-mini_screen:w-full max-md:text-base monstera">
+                        <p className="text-xl text-whiteGray mb-5  montserrat-light  w-2/3 max-lg:text-sm max-md:text-center max-md:w-full max-mini_screen:w-full max-md:text-base monstera">
                             Hi, I'm Boburov Shukurillo. A passionate Frontend React Developer
                             based in Chinabod , Uzbekistan📍
                         </p>
-                        <div className="w-full flex items-center justify-start gap-x-5 max-sm:flex-col max-md:gap-0">
-                            <span className="text-xl tracking-widest text-white furore">
+                        <div className="w-full flex items-center justify-start gap-x-5 max-lg:gap-x-2 max-md:gap-x-0 max-sm:flex-col max-md:gap-0">
+                            <span className="text-xl tracking-widest text-white furore max-lg:text-base max-md:text-sm">
                                 Teach Stack
                             </span>
-                            <span className="inline-block w-0.5 h-10 max-md:h-24 max-md:mr-5 bg-whiteGray max-sm:w-full max-sm:my-5 max-sm:h-0.5"></span>
-                            <div className="w-1/2  flex justify-start gap-5 max-sm:gap-x-1 max-sm:justify-center max-lg:flex-wrap max-lg:gap-0 max-md:gap-5 max-md:w-full">
+                            <span className="inline-block w-0.5 h-10 max-md:h-12 max-md:mr-4 bg-whiteGray max-sm:w-1/2 max-sm:my-5 max-sm:h-0.5"></span>
+                            <div className="w-1/2  flex justify-start gap-5 max-sm:gap-x-1 max-sm:justify-center max-lg:flex-wrap max-lg:gap-1 max-md:gap-5 max-md:w-full">
                                 <img
                                     src={html}
                                     alt="html png"
-                                    className="w-12 h-10 object-contain"
+                                    className="w-12 h-10 max-lg:w-5 max-md:w-8 object-contain"
                                 />
                                 <img
                                     src={css}
                                     alt="html png"
-                                    className="w-12 h-10 object-contain"
+                                    className="w-12 h-10 max-lg:w-5 max-md:w-8 object-contain"
                                 />
                                 <img
                                     src={javascript}
                                     alt="html png"
-                                    className="w-12 h-10 object-contain"
+                                    className="w-12 h-10 max-lg:w-5 max-md:w-8 object-contain"
                                 />
                                 <img
                                     src={react}
                                     alt="html png"
-                                    className="w-12 h-10 object-contain"
+                                    className="w-12 h-10 max-lg:w-5 max-md:w-8 object-contain"
                                 />
                                 <img
                                     src={tailwind}
                                     alt="html png"
-                                    className="w-12 h-10 object-contain"
+                                    className="w-12 h-10 max-lg:w-5 max-md:w-8 object-contain"
                                 />
                                 <img
                                     src={boostrap}
                                     alt="html png"
-                                    className="w-12 h-10 object-contain"
+                                    className="w-12 h-10 max-lg:w-5 max-md:w-8 object-contain"
                                 />
                                 <img
                                     src={nodejs}
                                     alt="html png"
-                                    className="w-12 h-10 object-contain"
+                                    className="w-12 h-10 max-lg:w-5 max-md:w-8 object-contain"
                                 />
                                 <img
                                     src={left}
                                     alt="html png"
-                                    className="w-12 h-10 object-contain"
+                                    className="w-12 h-10 max-lg:w-5 max-md:w-8 object-contain"
                                 />
                             </div>
                         </div>
@@ -91,7 +91,7 @@ const Home = () => {
                     <img
                         src={photo}
                         alt="portfolio"
-                        className="w-96 h-96 rounded-full object-cover max-sm:w-1/2 block max-sm:hidden"
+                        className="w-96 h-96 rounded-full object-cover max-sm:w-1/2 block max-md:hidden"
                     />
                 </div>
             </div>
