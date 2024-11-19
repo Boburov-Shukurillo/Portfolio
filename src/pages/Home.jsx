@@ -36,7 +36,7 @@ const Home = () => {
                             Developer 👋
                         </h1>
                         <p className="text-xl text-whiteGray mb-5  montserrat-light  w-2/3 max-lg:text-sm max-md:text-center max-md:w-full max-mini_screen:w-full max-md:text-base monstera">
-                            Hi, I'm Boburov Shukurillo. A passionate Frontend React Developer
+                            Hi, I'm Boburov Shukurillo. Frontend React Developer
                             based in Chinabod , Uzbekistan📍
                         </p>
                         <div className="w-full flex items-center justify-start gap-x-5 max-lg:gap-x-2 max-md:gap-x-0 max-sm:flex-col max-md:gap-0">
