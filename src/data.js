@@ -34,7 +34,7 @@ export const projects = [
     usingLanguage: ["react", "tailwind"],
     type: "project",
     gitHb: "https://github.com/Boburov-Shukurillo/Crypto-Tracker",
-    netlify: "https://github.com/Boburov-Shukurillo/Crypto-Tracker",
+    netlify: "https://online-crypto.netlify.app/",
   },
   {
     id: 4,
@@ -45,8 +45,8 @@ export const projects = [
       "Restoran website is an online platform that site users can buying foods and drinks and called  this project is fast. ",
     usingLanguage: ["react", "tailwind"],
     type: "project",
-    gitHb: "https://github.com/Boburov-Shukurillo/Crypto-Tracker",
-    netlify: "https://github.com/Boburov-Shukurillo/Crypto-Tracker",
+    gitHb: "https://github.com/Boburov-Shukurillo/husan-art",
+    netlify: "https://husan-art.netlify.app/",
   },
 ];
 
@@ -68,8 +68,8 @@ export const games = [
     description:
       "This Game is Perfect This game finished in 1 days and I learder Canvas and other canvas function!",
     usingLanguage: ["html", "css", "js"],
-    gitHb: "https://github.com/Boburov-Shukurillo/Tic Tac Toe",
-    netlify: "",
+    gitHb: "https://github.com/Boburov-Shukurillo/Flappy-Bird",
+    netlify: "https://flappy-bird-2022.netlify.app/",
   },
   {
     id: 3,
@@ -78,8 +78,8 @@ export const games = [
     description:
       "This Project createrd in 2 day and I learned Canvas and Javascript CRUD!",
     usingLanguage: ["html", "css", "js"],
-    gitHb: "https://github.com/Boburov-Shukurillo/Tic Tac Toe",
-    netlify: "",
+    gitHb: "https://github.com/Boburov-Shukurillo/Paint-App",
+    netlify: "https://paint-app2024.netlify.app/",
   },
   {
     id: 4,
@@ -88,8 +88,8 @@ export const games = [
     description:
       "This Project Craeated in 3day and I Learned Javascript If Else!",
     usingLanguage: ["html", "css", "js"],
-    gitHb: "https://github.com/Boburov-Shukurillo/Tic Tac Toe",
-    netlify: "",
+    gitHb: "https://github.com/Boburov-Shukurillo/Rock-Peaper-Game",
+    netlify: "https://rock-peaper.netlify.app/",
   },
   {
     id: 5,
