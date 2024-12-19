@@ -1,8 +1,8 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { games, projects } from "../data";
 import gitIcon from "../assets/github.png";
 import netlifyIcon from "../assets/netlify_logo_icon.png";
-import Aos, { AOS } from "aos";
+import Aos from "aos";
 import "aos/dist/aos.css";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
@@ -11,6 +11,7 @@ import boostrap from "../assets/bootstrap.png";
 import javascript from "../assets/js.png";
 import react from "../assets/react.png";
 import left from "../assets/leaft.png";
+import vue from "../assets/vue.svg";
 import nodejs from "../assets/nodejs.webp";
 import photo from "../assets/photo.png";
 import Contact from "./Contact";
@@ -36,8 +37,8 @@ const Home = () => {
                             Developer 👋
                         </h1>
                         <p className="text-xl text-whiteGray mb-5  montserrat-light  w-2/3 max-lg:text-sm max-md:text-center max-md:w-full max-mini_screen:w-full max-md:text-base monstera">
-                            Hi, I'm Boburov Shukurillo. Frontend React Developer
-                            based in Chinabod , Uzbekistan📍
+                            {` Hi, I'm Boburov Shukurillo. Frontend React Developer
+                            based in Chinabod , Uzbekistan📍`}
                         </p>
                         <div className="w-full flex items-center justify-start gap-x-5 max-lg:gap-x-2 max-md:gap-x-0 max-sm:flex-col max-md:gap-0">
                             <span className="text-xl tracking-widest text-white furore max-lg:text-base max-md:text-sm">
@@ -77,6 +78,11 @@ const Home = () => {
                                 />
                                 <img
                                     src={nodejs}
+                                    alt="html png"
+                                    className="w-12 h-10 max-lg:w-5 max-md:w-8 object-contain"
+                                />
+                                <img
+                                    src={vue}
                                     alt="html png"
                                     className="w-12 h-10 max-lg:w-5 max-md:w-8 object-contain"
                                 />

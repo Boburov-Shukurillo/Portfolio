@@ -14,16 +14,14 @@ const About = () => {
           <img src={second} className="rounded-2xl w-full" alt="" />
         </div>
         <div className="w-full py-10 flex items-center justify-start flex-col max-md:w-2/3 max-sm:w-full max-md:py-0">
-          <p className="montserrat-light tracking-widest w-full  text-xl text-center mb-5 max-sm:text-sm">
-            Hi I'm Frontend React Developer,
+          <p className="montserrat-light tracking-widest w-full  text-base text-center mb-5 max-sm:text-sm">
+            I’m Boburov Shukurillo, a Junior Frontend React Developer
           </p>
-          <p className="montserrat-light tracking-widest w-full text-xl  text-center mb-10 max-sm:text-sm">
-            My name is Boburov Shukurillo, I'm Junior Young Developer I am
-            Ecommers Sites{" "}
+          <p className="montserrat-light tracking-widest w-full text-base text-center mb-5 max-sm:text-sm">
+            about crafting dynamic and user-friendly e-commerce websites. Skilled in JavaScript and React.js, I also enjoy building games for fun. Currently,
           </p>
-          <p className="montserrat-light tracking-widest w-full text-xl  text-center max-sm:text-sm">
-            My freeTime I like create game in Javascroipt and React beacuse I
-            like thi programming Language
+          <p className="montserrat-light tracking-widest w-full text-base text-center max-sm:text-sm">
+            I’m advancing in Node.js, Vue.js, and English proficiency, striving to become a senior developer by year-end.
           </p>
         </div>
       </div>
