@@ -32,7 +32,7 @@ const Home = () => {
             >
                 <div className="containerb flex items-center justify-between max-md:flex-col">
                     <div className="w-full max-md:w-4/5 max-sm:text-center flex flex-col gap-y-7 max-md:items-center max-sm:gap-y-3">
-                        <h1 className="text-6xl font-bold ZingDemo text-white max-lg:text-3xl max-md:text-3xl max-md:text-center max-sm:text-2xl">
+                        <h1 className="text-6xl font-bold ZingDemo text-white max-lg:text-3xl max-md:text-3xl max-md:text-center max-sm:text-xl">
                             Front-End React
                             Developer 👋
                         </h1>
@@ -109,7 +109,7 @@ const Home = () => {
                     <h1 className="text-2xl montserrat-light text-skyBlue tracking-widest mb-2 max-md:text-xl">
                         Projects
                     </h1>
-                    <p className="text-4xl myFont text-white mb-10 max-md:text-2xl ZingDemo">
+                    <p className="text-4xl myFont text-white mb-10 max-md:text-2xl ZingDemo max-sm:text-base">
                         Each project is a unique piece of development 🧩
                     </p>
 
@@ -131,7 +131,7 @@ const Home = () => {
                                             <h2 className="text-3xl myFont text-white tracking-widest ZingDemo mb-5 max-xl:text-xl">
                                                 {project.projectName}
                                             </h2>
-                                            <p className="text-md montserrat-light tracking-wider font-semibold text-slate-400 mb-7 text-center max-xl:text-sm max-md:text-xl max-xl:w-full">
+                                            <p className="text-md montserrat-light tracking-wider font-semibold text-slate-400 mb-7 text-center max-xl:text-sm max-md:text-xl max-xl:w-full max-sm:text-sm max-sm:mb-3">
                                                 {project.description}
                                             </p>
 
@@ -189,7 +189,7 @@ const Home = () => {
                                             <h2 className="text-3xl ZingDemo text-white tracking-widest mb-5 max-xl:text-xl">
                                                 {project.projectName}
                                             </h2>
-                                            <p className="text-md montserrat-light font-semibold text-slate-400 mb-7 text-center max-xl:text-sm max-md:text-xl max-xl:w-full">
+                                            <p className="text-md montserrat-light font-semibold text-slate-400 mb-7 text-center max-xl:text-sm max-md:text-xl max-xl:w-full max-sm:text-sm max-sm:mb-3">
                                                 {project.description}
                                             </p>
 

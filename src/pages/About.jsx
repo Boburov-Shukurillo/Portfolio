@@ -13,7 +13,7 @@ const About = () => {
           <img src={second} className="rounded-2xl w-full" alt="" />
         </div>
         <div className="w-full py-10 flex items-center justify-start flex-col max-md:w-2/3 max-sm:w-full max-md:py-0">
-          <p className="montserrat-light tracking-widest w-full  text-base text-center max-sm:text-sm">
+          <p className="montserrat-light tracking-widest w-full  text-base text-center max-sm:text-sm max-sm:text-justify">
             {` I’m Boburov Shukurillo, a Junior Frontend React Developer
             about crafting dynamic and user-friendly e-commerce websites. Skilled in JavaScript and React.js, I also enjoy building games for fun. Currently,
             I’m advancing in Node.js, Vue.js, and English proficiency, striving to become a senior developer by year-end.`}

@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from "react";
-import telegram from "../assets/telegram.png";
+import { useState } from "react";
 import hamburgerBtn from "../assets/menu.svg";
 import "aos/dist/aos.css";
 import close from "../assets/close.png";
@@ -72,7 +71,7 @@ const Header = () => {
                 </div>
             </div>
             <div
-                className={`fixed z-50 w-full h-full bg-white transition-all  items-center justify-center ${menu}`}
+                className={`fixed z-50 w-full h-full bg-white/50 backdrop-blur-2xl transition-all  items-center justify-center ${menu}`}
             >
                 <nav className="w-full px-10 myFont relative ">
                     <img
